@@ -1,6 +1,6 @@
 <?php
 
-if (version_compare(phpversion(), '8.2.0', '<') == true) {
+if (version_compare(phpversion(), '8.2.0', '<')) {
     exit('Check PHP version, please. PHP 8.2+ Required');
 }
 
